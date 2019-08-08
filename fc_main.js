@@ -1979,7 +1979,7 @@ function autoCookie() { //ok
 			if (Game.Upgrades['Golden switch [off]'].unlocked && !Game.Upgrades['Golden switch [off]'].bought) {
 				Game.Upgrades['Golden switch [off]'].buy();
 			}
-		} else if (multBuffBonus() <= 1) {
+		} else {
 			if (Game.Upgrades['Golden switch [on]'].unlocked && !Game.Upgrades['Golden switch [on]'].bought) {
 				Game.CalculateGains(); // Ensure price is updated since Frenzy ended
 				Game.Upgrades['Golden switch [on]'].buy();
