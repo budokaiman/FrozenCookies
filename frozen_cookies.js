@@ -1,6 +1,6 @@
 // Global Variables
 var scriptElement = document.getElementById('frozenCookieScript') !== null ? document.getElementById('frozenCookieScript') : document.getElementById('modscript_frozen_cookies');
-var baseUrl = scriptElement !== null ? scriptElement.getAttribute('src').replace(/\/frozen_cookies\.js$/, '') : 'https://rawgit.com/kisslab69/FrozenCookies/master';
+var baseUrl = scriptElement !== null ? scriptElement.getAttribute('src').replace(/\/frozen_cookies\.js$/, '') : 'https://raw.githubusercontent.com/budokaiman/FrozenCookies/master';
 
 var FrozenCookies = {
     'baseUrl': baseUrl,
