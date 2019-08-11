@@ -291,7 +291,7 @@ function autoCast() {
 				var CBG = M.spellsById[0];
 				if (M.magicM < Math.floor(CBG.costMin + CBG.costPercent*M.magicM)) return;
 				if(multBuffBonus() >= FrozenCookies.minCpSMult) {
-					setTimeout(M.castSpell(CBG), 500);
+					setTimeout(M.castSpell(CBG), 2000);
 					logEvent('AutoSpell', 'Cast Conjure Baked Goods');
 				}
 				return;
